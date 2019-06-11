@@ -23,6 +23,6 @@ class MyAppTest < Test::Unit::TestCase
     def test_hello_form_post
         post '/hello/', params={:name => 'Frank', :greeting => "Hi"}
         assert last_response.ok?
-        assert last_response.body.include('I just wanted to say')
+        assert last_response.body.include?('I just wanted to say')
     end
 end

@@ -12,8 +12,8 @@ Gem::Specification.new do |spec|
     spec.homepage       = "http://domainforproject.com/"
     spec.license        = "MIT"
 
-    spec.files          = ['lib/NAME.rb']
-    spec.executables    = ['bin/NAME']
-    spec.test_files     = ['tests/test_NAME.rb']
+    spec.files          = ['lib/dragonheart.rb']
+    spec.executables    = ['bin/dragonheart']
+    spec.test_files     = ['tests/test_dragonheart.rb']
     spec.require_paths  = ["lib"]
 end
